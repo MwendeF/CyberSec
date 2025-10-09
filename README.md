@@ -2,31 +2,55 @@
 # 🔐 Cybersecurity Portfolio
 
 Welcome to Faith Mutua cybersecurity portfolio!  
-This repository showcases hands-on projects, labs, and writeups that demonstrate my technical and problem-solving skills in cybersecurity.  
+# Faith Mutua - Portfolio
+
+## 🔐 About
+**Specialized in network security and threat mitigation strategies**  
+A cybersecurity professional dedicated to safeguarding digital assets.
+
+![Portfolio Image](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/portfolio.png)
 
 ---
 
-## 📂 Portfolio Sections
+## 🎓 Certifications in Cybersecurity
+I have earned **CompTIA Security+** as well as other certifications in cybersecurity, demonstrating my commitment to staying at the forefront of digital security practices.  
+These academic achievements highlight my dedication to professional growth and excellence in the cybersecurity field.
 
+![Forensic Analysis](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-9.jpeg)
 
-### ⚔️ Red Team (Offensive Security)
-- **Pentesting (Metasploitable):** Conducted reconnaissance, exploitation, and documented vulnerabilities.  
-- **CTF Writeups (Kenya Cybergame, TryHackMe, HackerOne):** Solved challenges in web exploitation, cryptography, and privilege escalation.  
-
-### 📊 GRC (Governance, Risk, Compliance)
-
-- **Policy Drafting:** Wrote an Acceptable Use Policy and Incident Response Plan.  
-
-### 🛠️ Scripts & Tools
-- Created simple Python and Bash scripts for log parsing, password audits, and automation.  
+[➡️ View Certifications](#)
 
 ---
 
-## 🚀 About Me
-I am an aspiring cybersecurity professional passionate about defending systems and learning offensive techniques to strengthen security.  
-Holder of 
-CompTIA Security+ and continuously practicing via **TryHackMe, HackTheBox, and CTFs**.  
+## 💼 Resume & Projects
 
-**LinkedIn:**  https://www.linkedin.com/in/faith-mutua-305600202/
- 
+### 📄 Resume
+View Faith Mutua's professional resume and background.
+
+![Resume](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-8.jpeg)
+
+---
+
+### 🛠 Projects
+Explore cybersecurity projects and highlights.
+
+![Projects](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-5.jpeg)
+
+---
+
+## 📬 Contact
+Reach out for professional networking or collaboration in cybersecurity.
+
+- 📞 +254710964457  
+- 🔗 [LinkedIn: faith-mutua-mwendef57](https://www.linkedin.com/in/faith-mutua-mwendef57)  
+- 📧 [mwendef57@gmail.com](mailto:mwendef57@gmail.com)  
+
+---
+
+## 👋 Welcome
+Welcome to my embedded portfolio!  
+
+> “Welcome to my embedded HTML!  
+> This is a paragraph within the custom container.”
+
 
