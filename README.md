@@ -24,7 +24,7 @@ These academic achievements highlight my dedication to professional growth and e
 
 ## [💼 Resume & Projects](#-resume--projects)
 
-### [📄 Resume](#-resume)
+### [📄 Resume](Faith_Mutua_ICT_Role_CV.pdf)
 View Faith Mutua's professional resume and background.
 
 ![Resume](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-8.jpeg)
