@@ -38,6 +38,15 @@ Explore cybersecurity projects and highlights.
 
 ---
 
+## [🧪 Lab Challenges](#-lab-challenges)
+Hands-on practice solving real-world cybersecurity problems.  
+
+[➡️ View Lab Challenges](./labs.md)
+
+*(Link this to a file like `labs.md` in your repo, or replace with an external platform link e.g., TryHackMe, HackTheBox, etc.)*
+
+---
+
 ## [📬 Contact](#-contact)
 Reach out for professional networking or collaboration in cybersecurity.
 
