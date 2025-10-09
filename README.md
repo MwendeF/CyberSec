@@ -18,7 +18,7 @@ These academic achievements highlight my dedication to professional growth and e
 
 ![Forensic Analysis](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-9.jpeg)
 
-[➡️ View Certifications](#)
+[➡️ View Certifications](https://github.com/MwendeF/CyberSec/blob/main/CompTIA%20Security%2B%20ce%20certificate.pdf)
 
 ---
 
