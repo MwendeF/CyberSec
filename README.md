@@ -48,7 +48,4 @@ Reach out for professional networking or collaboration in cybersecurity.
 ---
 
 ## [👋 Welcome](#-welcome)
-Welcome to my embedded portfolio!  
 
-> “Welcome to my embedded HTML!  
-> This is a paragraph within the custom container.”
