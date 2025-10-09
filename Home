@@ -1,1 +1,136 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <!-- wp:group {"metadata":{"name":"About","patternCategory":"about","remotePatternId":13373},"align":"full","className":"alignfull is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-default" id="about-section" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","contentSize":"460px","justifyContent":"left"}} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading -->
+<h2 class="wp-block-heading">Specialized in network security and threat mitigation strategies</h2>
+<!-- /wp:heading -->
 
+<!-- wp:paragraph -->
+<p>A cybersecurity professional dedicated to safeguarding digital assets.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"bottom"} -->
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:image {"lightbox":{"enabled":false},"id":51,"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/portfolio.png" alt="" class="wp-image-51" style="aspect-ratio:1;object-fit:cover" /></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"General content","patternCategory":"general","remotePatternId":"13361-general"},"align":"full","className":"alignfull is-style-section-2","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-section-2" id="general-section" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|40"}}}} -->
+<div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-9.jpeg" alt="Forensic analysis slide with laptop on table, USB stick in foreground, USB and wires on table, with a keyboard and other f..." style="aspect-ratio:1;object-fit:cover" /></figure>
+<!-- /wp:image --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"verticalAlignment":"center"} -->
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"align":"wide"} -->
+<h2 class="wp-block-heading alignwide">Certifications in Cybersecurity</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I have earned CompTIA Security + as well as other certifications in cybersecurity, demonstrating my commitment to staying at the forefront of digital security practices. These academic achievements highlight my dedication to professional growth and excellence in the cybersecurity field.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Certifications</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"categories":["services"],"name":"Services Offered","patternName":"assembler/services-1","patternCategory":"services","remotePatternId":13399},"align":"full","className":"alignfull is-style-section-2","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-2" id="services-section" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"metadata":{"name":"Sections"},"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Section"},"align":"wide"} -->
+<div class="wp-block-group alignwide"><!-- wp:columns {"metadata":{"name":"Items"},"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-columns alignwide"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"style":{"layout":{"selfStretch":"fixed","flexSize":"100%"}}} -->
+<h2 class="wp-block-heading">Resume</h2>
+<!-- /wp:heading -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":"unset"}}} -->
+<figure class="wp-block-image size-large"><img src="https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-8.jpeg" alt="A monochromatic 3D illustration of a cloud computing security concept, featuring a padlock, data storage, and network serv..." style="aspect-ratio:4/3;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"is-service-description"} -->
+<p class="is-service-description">View Faith Mutua's professional resume and background.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"metadata":{"name":"Item"},"style":{"spacing":{"blockGap":"0"}}} -->
+<div class="wp-block-column"><!-- wp:group {"layout":{"type":"default"}} -->
+<div class="wp-block-group"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","linkDestination":"none","style":{"color":{"duotone":"unset"}}} -->
+<figure class="wp-block-image size-large"><img src="https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-5.jpeg" alt="Laptop on desk with forensic analysis image." style="aspect-ratio:4/3;object-fit:cover" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph {"className":"is-service-description"} -->
+<p class="is-service-description">Explore cybersecurity projects and highlights.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Contact","patternCategory":"contact","remotePatternId":13500},"align":"full","className":"is-style-default","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-default" id="contact-section" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained","contentSize":"480px"}} -->
+<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","align":"wide","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<h2 class="wp-block-heading alignwide has-text-align-center" style="margin-top:0;margin-bottom:0">Contacts</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","className":"is-contact-description"} -->
+<p class="has-text-align-center is-contact-description">Reach out for professional networking or collaboration in cybersecurity. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>+254710964457</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>LinkedIn: www.linkedin.com/in/faith-mutua-mwendef57</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>mwendef57@gmail.com</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+          <style>
+            /* Your CSS styles for the embedded HTML */
+            .container {
+              display: flex;
+              width: 100%;
+              height: 300px;
+              background-color: #f0f0f0;
+              color: #333;
+              justify-content: center;
+              align-items: center;
+              font-family: sans-serif;
+            }
+          </style>
+          <div class="container">
+            <h1>Welcome to my embedded HTML!</h1>
+            <p>This is a paragraph within the SVG.</p>
+          </div>
+        </div>
+      </foreignObject>
+    </svg>
