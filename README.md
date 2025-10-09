@@ -38,10 +38,10 @@ Explore cybersecurity projects and highlights.
 
 ---
 
-## [🧪 Lab Challenges](lab.md)
+## [🧪 Lab Challenges](https://github.com/MwendeF/CyberSec/blob/main/lab.md)
 Hands-on practice solving real-world cybersecurity problems.  
 
-[➡️ View Lab Challenges](lab.md)
+[➡️ View Lab Challenges](https://github.com/MwendeF/CyberSec/blob/main/lab.md)
 
 
 
