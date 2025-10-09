@@ -4,7 +4,7 @@
 Welcome to Faith Mutua cybersecurity portfolio!  
 # Faith Mutua - Portfolio
 
-## 🔐 About
+## [🔐 About](#-about)
 **Specialized in network security and threat mitigation strategies**  
 A cybersecurity professional dedicated to safeguarding digital assets.
 
@@ -12,7 +12,7 @@ A cybersecurity professional dedicated to safeguarding digital assets.
 
 ---
 
-## 🎓 Certifications in Cybersecurity
+## [🎓 Certifications in Cybersecurity](#-certifications-in-cybersecurity)
 I have earned **CompTIA Security+** as well as other certifications in cybersecurity, demonstrating my commitment to staying at the forefront of digital security practices.  
 These academic achievements highlight my dedication to professional growth and excellence in the cybersecurity field.
 
@@ -22,23 +22,23 @@ These academic achievements highlight my dedication to professional growth and e
 
 ---
 
-## 💼 Resume & Projects
+## [💼 Resume & Projects](#-resume--projects)
 
-### 📄 Resume
+### [📄 Resume](#-resume)
 View Faith Mutua's professional resume and background.
 
 ![Resume](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-8.jpeg)
 
 ---
 
-### 🛠 Projects
+### [🛠 Projects](#-projects)
 Explore cybersecurity projects and highlights.
 
 ![Projects](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-5.jpeg)
 
 ---
 
-## 📬 Contact
+## [📬 Contact](#-contact)
 Reach out for professional networking or collaboration in cybersecurity.
 
 - 📞 +254710964457  
@@ -47,5 +47,8 @@ Reach out for professional networking or collaboration in cybersecurity.
 
 ---
 
-## 👋 Welcome
+## [👋 Welcome](#-welcome)
+Welcome to my embedded portfolio!  
 
+> “Welcome to my embedded HTML!  
+> This is a paragraph within the custom container.”
