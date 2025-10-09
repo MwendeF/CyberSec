@@ -41,7 +41,7 @@ Explore cybersecurity projects and highlights.
 ## [🧪 Lab Challenges](#-lab-challenges)
 Hands-on practice solving real-world cybersecurity problems.  
 
-[➡️ View Lab Challenges]()
+[➡️ View Lab Challenges](lab.md)
 
 
 
