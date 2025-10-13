@@ -31,7 +31,7 @@ View Faith Mutua's professional resume and background.
 
 ---
 
-### [🛠 Projects](#-projects)
+### [🛠 Projects](https://github.com/MwendeF/CyberSec/blob/main/cybersec%20projects.pdf)
 Explore cybersecurity projects and highlights.
 
 ![Projects](https://mwendef57-rxefb.wordpress.com/wp-content/uploads/2025/10/cybersecurity-5.jpeg)
