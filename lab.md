@@ -127,7 +127,7 @@ SK-CERT{0bfu5c4710n_4nd_5l33p}
 
 
 
-During a security assessment, I identified a critical Remote Code Execution (RCE) vulnerability in an application's Model Context Protocol (MCP) connection API. The issue allowed an attacker to supply arbitrary executables and arguments through user-controlled JSON input, resulting in command execution on the underlying host system.
+Doing a hack the box machine, I identified a critical Remote Code Execution (RCE) vulnerability in an application's Model Context Protocol (MCP) connection API. The issue allowed an attacker to supply arbitrary executables and arguments through user-controlled JSON input, resulting in command execution on the underlying host system.
 
 By abusing this functionality, an attacker could execute arbitrary operating system commands and ultimately gain interactive shell access to the server.
 
