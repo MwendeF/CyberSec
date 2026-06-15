@@ -114,6 +114,9 @@ def deobfuscate3(string):
     return ''.join(reverse_char(c) for c in string)
 command2 = "./yby.fu #FX!PREG{5osh0p9265a*9aq*0y88c}"
 SK-CERT{0bfu5c4710n_4nd_5l33p}
+
+'''
+
 **This completes the Calculator series in CyberGame 2025**
 
 ------------------------------------------------------------------------------------------------------------------------------------------
