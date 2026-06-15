@@ -116,12 +116,12 @@ command2 = "./yby.fu #FX!PREG{5osh0p9265a*9aq*0y88c}"
 SK-CERT{0bfu5c4710n_4nd_5l33p}
 **This completes the Calculator series in CyberGame 2025**
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
 
+**#Remote Code Execution (RCE) via Arbitrary Command Injection in MCP Connection Endpoint
 
-# Remote Code Execution (RCE) via Arbitrary Command Injection in MCP Connection Endpoint
-
-## Overview
+## Overview**
 
 During a security assessment, I identified a critical Remote Code Execution (RCE) vulnerability in an application's Model Context Protocol (MCP) connection API. The issue allowed an attacker to supply arbitrary executables and arguments through user-controlled JSON input, resulting in command execution on the underlying host system.
 
