@@ -115,3 +115,202 @@ def deobfuscate3(string):
 command2 = "./yby.fu #FX!PREG{5osh0p9265a*9aq*0y88c}"
 SK-CERT{0bfu5c4710n_4nd_5l33p}
 **This completes the Calculator series in CyberGame 2025**
+
+
+
+
+# Remote Code Execution (RCE) via Arbitrary Command Injection in MCP Connection Endpoint
+
+## Overview
+
+During a security assessment, I identified a critical Remote Code Execution (RCE) vulnerability in an application's Model Context Protocol (MCP) connection API. The issue allowed an attacker to supply arbitrary executables and arguments through user-controlled JSON input, resulting in command execution on the underlying host system.
+
+By abusing this functionality, an attacker could execute arbitrary operating system commands and ultimately gain interactive shell access to the server.
+
+---
+
+## Vulnerability Summary
+
+| Attribute               | Value                                                                     |
+| ----------------------- | ------------------------------------------------------------------------- |
+| Vulnerability Type      | Remote Code Execution (RCE)                                               |
+| Severity                | Critical                                                                  |
+| Attack Complexity       | Low                                                                       |
+| Authentication Required | No                                                                        |
+| Impact                  | Full Server Compromise                                                    |
+| CWE                     | CWE-78: Improper Neutralization of Special Elements Used in an OS Command |
+
+---
+
+## Technical Analysis
+
+The vulnerable endpoint accepted a JSON payload containing MCP server configuration details. Users could specify both the executable (`command`) and its arguments (`args`).
+
+Example request structure:
+
+```json
+{
+  "serverConfig": {
+    "type": "stdio",
+    "command": "python3",
+    "args": [
+      "-c",
+      "<attacker-controlled code>"
+    ]
+  },
+  "serverId": "example"
+}
+```
+
+The backend passed these values directly into a process creation function without validation or restrictions.
+
+Conceptually, the application behaved similarly to:
+
+```python
+subprocess.Popen(
+    [user_command] + user_args,
+    stdin=subprocess.PIPE,
+    stdout=subprocess.PIPE
+)
+```
+
+Because the executable path and arguments were fully user-controlled, attackers could invoke arbitrary programs available on the host.
+
+---
+
+## Proof of Concept
+
+An attacker could specify a legitimate interpreter such as Python and provide malicious code through the argument list.
+
+Example payload:
+
+```json
+{
+  "serverConfig": {
+    "type": "stdio",
+    "command": "python3",
+    "args": [
+      "-c",
+      "<arbitrary attacker code>"
+    ]
+  },
+  "serverId": "malicious"
+}
+```
+
+Successful exploitation resulted in arbitrary code execution under the privileges of the application service account.
+
+---
+
+## Impact
+
+### Confidentiality
+
+* Access to source code repositories
+* Exposure of environment variables and secrets
+* Database credential disclosure
+* Access to customer and internal data
+
+### Integrity
+
+* Modification of application files
+* Data tampering
+* Deployment of malicious payloads
+* Unauthorized administrative actions
+
+### Availability
+
+* Service disruption
+* Resource exhaustion
+* Malware deployment
+* Internal network pivoting
+
+---
+
+## Root Cause
+
+The vulnerability stemmed from a trust boundary violation:
+
+1. User input directly controlled executable selection.
+2. No allowlist or validation existed for permitted commands.
+3. Process creation occurred without security restrictions.
+4. Sensitive functionality lacked authentication and authorization controls.
+
+---
+
+## Remediation
+
+### 1. Implement Command Allowlisting
+
+Only permit approved MCP executables through a predefined lookup table.
+
+Example:
+
+```python
+ALLOWED_MCP_COMMANDS = {
+    "sqlite-mcp": "/usr/local/bin/mcp-sqlite",
+    "postgres-mcp": "/usr/local/bin/mcp-postgres",
+    "git-mcp": "/usr/local/bin/mcp-git"
+}
+```
+
+Reject any command not explicitly defined in the allowlist.
+
+---
+
+### 2. Enforce Authentication and Authorization
+
+* Require authenticated access to the MCP endpoint.
+* Implement role-based access control (RBAC).
+* Restrict MCP process creation to trusted administrative users.
+
+---
+
+### 3. Harden Runtime Isolation
+
+* Run services as non-root users.
+* Use container isolation (Docker, Kubernetes, Firecracker, etc.).
+* Enable read-only root filesystems where possible.
+* Apply the principle of least privilege.
+
+Example Kubernetes security context:
+
+```yaml
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 10001
+  readOnlyRootFilesystem: true
+```
+
+---
+
+### 4. Apply Network Egress Controls
+
+Restrict outbound connections to approved destinations only.
+
+Recommended controls:
+
+* Default-deny outbound firewall policy
+* Explicit allowlists for required services
+* Proxy-controlled external access
+* Monitoring and alerting for unusual outbound traffic
+
+---
+
+## Key Takeaways
+
+This vulnerability demonstrates the risks of exposing process execution functionality to user-controlled input. Even when shell metacharacters are not involved, allowing users to select arbitrary executables can lead directly to full remote code execution.
+
+A combination of strict allowlisting, authentication, runtime isolation, and network controls is necessary to prevent exploitation and limit impact if a compromise occurs.
+
+---
+
+**Skills Demonstrated**
+
+* API Security Assessment
+* Remote Code Execution Discovery
+* Threat Modeling
+* Secure Code Review
+* Process Execution Abuse Analysis
+* Container and Infrastructure Hardening
+* Vulnerability Reporting
